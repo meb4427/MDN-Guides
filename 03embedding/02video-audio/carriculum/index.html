@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Below is a simple video example</h1>
+        <video
+            controls
+            width="400"
+            height="400"
+            loop
+            muted
+            autoplay
+            preload="auto"
+            poster="image/poster.png">
+            <source src="video/rabbit320.mp4" type="video/mp4">
+            <source src="video/rabbit320.webm" type="video/webm">
+            <p>
+                お使いのブラウザ―は HTML 動画をサポートしていません。
+                その代わりに、
+                <a href="video/rabbit320.mp4">動画へのリンク</a>
+                があります。
+            </p>
+        </video>
+
+        <audio controls>
+            <source src="audio/viper.mp3" type="audio/mp3">
+            <source src="audio/viper.ogg" type="audio/ogg">
+            <p>
+                お使いのブラウザ―はこの音声ファイルに対応しておりません。
+                代わりに、
+                <a href="audio/viper.mp3">音声へのリンク</a>
+                をお使いください。
+            </p>
+        </audio>
+    </body>
+</html>
