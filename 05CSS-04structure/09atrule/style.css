@@ -1,0 +1,9 @@
+body {
+    background-color: azure;
+}
+
+@media (min-width: 1000px) {
+    body {
+        background-color: aqua;
+    }
+}
