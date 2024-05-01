@@ -1,7 +1,4 @@
-li[class^="a"] {
-    background-color: yellow;
-  }
-  
-  li[class^="a" i] {
-    color: red;
-  }
+.first {
+    font-size: 200%;
+    font-weight: bold;
+}
