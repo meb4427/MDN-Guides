@@ -1,0 +1,15 @@
+ul li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p + ol {
+    color: blueviolet;
+}
+
+p {
+    background-color: aqua;
+}
+
+li + li + li {
+    font-size: 45px;
+}
