@@ -9,6 +9,9 @@ body {
 }
 
 p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% - 100px);
     height: 500px;
     background-color: pink;
