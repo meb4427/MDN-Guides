@@ -1,0 +1,7 @@
+/* article :first-child {
+    font-weight: bold;
+} */
+
+article *:first-child {
+    font-weight: bold;
+}

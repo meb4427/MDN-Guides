@@ -1,0 +1,15 @@
+span {
+    background-color: yellow;
+}
+
+strong, em {
+    color: rebeccapurple;
+}
+
+h1, .special {
+    color: blue;
+}
+
+p::first-line {
+    text-decoration-line: underline;
+}
